@@ -1,0 +1,5 @@
+# Install with: python3 -m pip install -r requirements.txt
+# Use the macOS system Python 3 (/usr/bin/python3), NOT a venv —
+# pynput depends on pyobjc which requires pre-built wheels from python.org/pip.
+Pillow>=10.0.0
+pynput>=1.7.6
